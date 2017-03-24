@@ -15,7 +15,7 @@
 get_header(); ?>
 
 
-1
+
 
 
 <section class="home-page">
