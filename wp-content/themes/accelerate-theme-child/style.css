@@ -9,11 +9,6 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  accelerate-theme-child
 */
-<<<<<<< HEAD
-@import url("../accelerate-theme/style.css");
-
-body {
-	background: yellow;
 
 
 @import url("../accelerate-theme/style.css");
@@ -57,5 +52,5 @@ body {
 	font-weight: bold;
 	color: #45ac9d;
 	text-transform: uppercase;
->>>>>>> create-child-theme
+    
 }
