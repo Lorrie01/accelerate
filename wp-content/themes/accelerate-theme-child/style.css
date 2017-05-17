@@ -92,3 +92,86 @@ div.case-study-img {
 .individual-featured-work {
     display: inline-block;
 }
+
+/*About Page*/
+
+.home-page {
+  background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+}
+
+.about-hero {
+  font-size: 24px;
+  line-height: 1.5;
+  color: white;
+  text-align: center;
+  width: 550px;
+  margin-left: 250px;
+  font-weight: lighter;
+  margin-top: 190px;
+
+}
+
+span {
+  color: #43AE9E;
+}
+
+div.site-content h4 {
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.our-services p{
+  margin: 0 15% 2em;
+  text-align: center;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.about-contact h3 {
+  font-size: 16px;
+  line-height: 1.0909090909;
+  text-align: center;
+  float: left;
+}
+
+.about-contact .contact-button{
+  border-top: 1px solid #ccc;
+	margin: 0 auto;
+  text-align: center;
+	clear: both;
+}
+
+.about-contact .contact-button li{
+  list-style-type: none;
+  display: inline-block;
+  margin-top: 1.5em;
+  width: 30%;
+}
+.about-contact .contact-button a {
+  display: inline-block;
+}
+
+.individual-service {
+  overflow: auto;
+  margin-bottom: 2em;
+}
+
+.service-image {
+  width: 25%;
+}
+.service-desc {
+  width: 70%;
+  float: left;
+}
+
+.individual-service:nth-child(even) .service-image {
+ float: right;
+ margin-left: 5%;
+}
+
+.individual-service:nth-child(odd) .service-image {
+ float: left;
+ margin-right: 5%;
+}
