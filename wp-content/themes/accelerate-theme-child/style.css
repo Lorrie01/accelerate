@@ -158,14 +158,25 @@ div.site-content h4 {
   margin-bottom: 2em;
 }
 
+.page-template-about-us .row {
+  overflow: auto;
+}
 .service-image {
   width: 25%;
+  float: left;
+}
+.service-image.left {
+  margin-right: 5%;
+}
+.service-image.right {
+  float: right;
+  margin-left: 5%;
 }
 .service-desc {
   width: 70%;
   float: left;
 }
-
+/*
 .individual-service:nth-child(even) .service-image {
  float: right;
  margin-left: 5%;
@@ -174,4 +185,4 @@ div.site-content h4 {
 .individual-service:nth-child(odd) .service-image {
  float: left;
  margin-right: 5%;
-}
+}*/

@@ -47,51 +47,47 @@ get_header(); ?>
 <div class="site-content">
     <section="all-services">
         <div class="row">
-            <div class="col-lg-8" id="service-desc">
-                <h2><?php echo $service_title_1; ?></h2>
-                <p><?php echo $service_description_1; ?> </p>
-            </div>
-
-            <div class="service-image">
+            <div class="service-image left">
                 <?php if($service_image_1) {
                 echo wp_get_attachment_image ($service_image_1, $size); ?>
                 <?php } ?>
             </div>
+            <div class="col-lg-8 service-desc" id="service-desc">
+                <h2><?php echo $service_title_1; ?></h2>
+                <p><?php echo $service_description_1; ?> </p>
+            </div>
         </div>
             <div class="row">
-            <div class="col-lg-8" id="service-desc">
-                <h2><?php echo $service_title_2; ?></h2>
-                <p><?php echo $service_description_2; ?> </p>
-            </div>
-
-            <div class="service-image">
+            <div class="service-image right">
                 <?php if($service_image_2) {
                 echo wp_get_attachment_image ($service_image_2, $size); ?>
                 <?php } ?>
             </div>
+            <div class="col-lg-8 service-desc" id="service-desc">
+                <h2><?php echo $service_title_2; ?></h2>
+                <p><?php echo $service_description_2; ?> </p>
+            </div>
         </div>
             <div class="row">
-            <div class="col-lg-8" id="service-desc">
-                <h2><?php echo $service_title_3; ?></h2>
-                <p><?php echo $service_description_3; ?> </p>
-            </div>
-
-            <div class="service-image">
+            <div class="service-image left">
                 <?php if($service_image_3) {
                 echo wp_get_attachment_image ($service_image_3, $size); ?>
                 <?php } ?>
             </div>
+            <div class="col-lg-8 service-desc" id="service-desc">
+                <h2><?php echo $service_title_3; ?></h2>
+                <p><?php echo $service_description_3; ?> </p>
+            </div>
         </div>
             <div class="row">
-            <div class="col-lg-8" id="service-desc">
-                <h2><?php echo $service_title_4; ?></h2>
-                <p><?php echo $service_description_4; ?> </p>
-            </div>
-
-            <div class="service-image">
+            <div class="service-image right">
                 <?php if($service_image_4) {
                 echo wp_get_attachment_image ($service_image_4, $size); ?>
                 <?php } ?>
+            </div>
+            <div class="col-lg-8 service-desc" id="service-desc">
+                <h2><?php echo $service_title_4; ?></h2>
+                <p><?php echo $service_description_4; ?> </p>
             </div>
         </div>
         <?php endwhile; // end of the loop. ?>
