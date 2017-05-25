@@ -105,6 +105,7 @@ div.case-study-img {
   color: white;
   text-align: center;
   width: 550px;
+  height: 300px;    
   margin-left: 250px;
   font-weight: lighter;
   margin-top: 190px;
@@ -186,3 +187,11 @@ div.site-content h4 {
  float: left;
  margin-right: 5%;
 }*/
+ul {
+  list-style-type: none;
+    float: right;
+}
+li {
+    display: inline-block;
+   
+}
