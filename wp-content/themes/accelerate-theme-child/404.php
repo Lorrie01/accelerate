@@ -27,7 +27,7 @@ get_header(); ?>
                                         
                     <h2><?php _e( 'Relax and drink your coffee while we help you find the right page.', 'acceleratemarketing' ); ?></h2>
 					<h2><?php _e( 'This can be somewhat embarrassing, but don\'t worry.', 'acceleratemarketing' ); ?></h2>
-					<p><?php _e( ' Check to see the page you\'re looking for. Searching will help, really.', 'acceleratemarketing' ); ?></p>
+					<p class="shadow"><?php _e( ' Check to see the page you\'re looking for. Searching will help, really.', 'acceleratemarketing' ); ?></p>
 
 <?php get_search_form(); ?>
 				</div><!-- .page-content -->
