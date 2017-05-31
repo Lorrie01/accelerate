@@ -195,3 +195,30 @@ li {
     display: inline-block;
    
 }
+/*404 Page*/
+
+#break-page {
+  background: url("img/404.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+  width: 600px;
+  height: 260px;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 0px;
+  font-weight: lighter;
+}
+
+h1 {
+    color:#25744d;
+}
+h2 {
+    color:white;
+}
+
+p {
+    color:#1f6140;
+    text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px grey;
+    border: 1px outset burlywood;
+    
+}
