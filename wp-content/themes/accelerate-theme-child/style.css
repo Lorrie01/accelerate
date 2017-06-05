@@ -41,6 +41,7 @@
 
 .blog-post {
 	width: 50%;
+    
 }
 
 .blog-post h4 {
@@ -64,6 +65,46 @@
 	text-transform: uppercase;
     
 }
+
+#secondary.widget-area {
+    float: right;
+    width: 45%;
+    display:inline-block;
+    margin-top: 80px;
+}
+
+#secondary.widget-area .follow-us-link {
+    text-transform: uppercase;
+    color: #45ac9d;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+div.site-content h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    color: #a6a6a6;
+    font-family: 'Montserrat';
+}
+
+ul{
+    list-style-type: none;
+}
+
+.widget ul {
+    margin-bottom: 40px;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+.wiget li {
+    line-height: 1.9em;
+    margin-top: 15px;
+}
+
+
 
 /* Case Studies */
 
